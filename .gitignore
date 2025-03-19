@@ -1,3 +1,9 @@
+# JRO additions
+.DS_Store
+# End JRO additions
+
+# The rest of this is the default Python .gitignore from GitHub as of the creation date of this repo
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
