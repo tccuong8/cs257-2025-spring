@@ -1,2 +1,2 @@
-# cs257-2025-spring
-samples and starter code for Carleton college's CS257-01, spring 2025
+# Carleton CS257, Spring 2025
+Sample code for the Spring 2025 offering of CS257 (section 01) at Carleton College
