@@ -12,14 +12,16 @@
 import sys
 import csv
 
+# Check the command-line syntax
 if len(sys.argv) != 2:
     print(f'Usage: {sys.argv[0]} csvfile')
     exit()
 
+# Do the thing
 csvfile = sys.argv[1]
 with open(csvfile) as f:
     reader = csv.reader(f)
-    books = []
     for book_row in reader:
         title = book_row[0]
         print(title)
+
