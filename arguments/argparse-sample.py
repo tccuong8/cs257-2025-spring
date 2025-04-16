@@ -1,5 +1,5 @@
 '''
-    argparse_example.py
+    argparse-sample.py
     Jeff Ondich
     3 October 2020
 
@@ -8,11 +8,11 @@
 
     Try a few ways of using the arguments:
 
-        python3 argparse_example.py cat
-        python3 argparse_example.py --language spanish dog cat moose
-        python3 argparse_example.py --language=spanish dog cat moose
-        python3 argparse_example.py dog cat moose -l spanish
-        python3 argparse_example.py dog cat moose -lfrench
+        python3 argparse-sample.py cat
+        python3 argparse-sample.py --language spanish dog cat moose
+        python3 argparse-sample.py --language=spanish dog cat moose
+        python3 argparse-sample.py dog cat moose -l spanish
+        python3 argparse-sample.py dog cat moose -lfrench
 
     Notes:
     + the "options" (like --language and -l) can come either before or after the
