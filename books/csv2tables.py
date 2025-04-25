@@ -31,8 +31,8 @@ def main(input_file_name):
             publication_year = book_row[1]
             surname = book_row[2]
             given_name = book_row[3]
-            birth_year = book_row[4]
-            death_year = book_row[5]
+            birth_year = book_row[4] if book_row[4] else 'NULL'
+            death_year = book_row[5] if book_row[5] else 'NULL'
             author_key = f'{surname}+{given_name}'
             book_key = f'{title}+{publication_year}'
 
